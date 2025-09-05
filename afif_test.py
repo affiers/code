@@ -1,24 +1,33 @@
-# String
-nama = 'Afif Khoirul Abdi'
+# # String
+# nama = 'Afif Khoirul Abdi'
 
-# Int
-umur = 40
+# # Int
+# umur = 40
 
-# Float
-tinggi = 174.5
+# # Float
+# tinggi = 174.5
 
-# Boolean
-statusMenikah = True
+# # Boolean
+# statusMenikah = True
 
-# Aritmatika
-a = 1
-b = 2.5
-c = a + b
+# # Aritmatika
+# a = 1
+# b = 2.5
+# c = a + b
 
-statusMenikahString = 'Sudah Kawin' if statusMenikah else 'Belum Kawin'
-print(f"Nama: {nama}")
-print(umur)
-print(tinggi)
-print(f"Status: {statusMenikahString}")
-# print(f"Status: {'Sudah Kawin' if statusMenikah else 'Belum Kawin'}")
-print(c)
+# statusMenikahString = 'Sudah Kawin' if statusMenikah else 'Belum Kawin'
+# print(f"Nama: {nama}")
+# print(umur)
+# print(tinggi)
+# print(f"Status: {statusMenikahString}")
+# # print(f"Status: {'Sudah Kawin' if statusMenikah else 'Belum Kawin'}")
+# print(c)
+
+# remark
+# ctrl+ /
+
+nama = input("nama: ")
+umur = int(input("umur: "))
+tinggi = float(input("tinggi: "))
+
+print(f"Halo {nama}, umur kamu {umur} tahun dan tinggi {tinggi} cm.")
