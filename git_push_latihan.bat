@@ -23,8 +23,11 @@ if %errorlevel%==0 (
 :: Tambahkan semua file
 git add .
 
+:: Tanya pesan commit ke user
+set /p commit_msg=Masukkan pesan commit: 
+
 :: Commit perubahan (jika ada)
-git commit -m "first commit" || echo ⚠️ Tidak ada perubahan untuk di-commit
+git commit -m "%commit_msg%" || echo ⚠️ Tidak ada perubahan untuk di-commit
 
 :: Push ke GitHub
 git push -u origin main
