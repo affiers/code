@@ -14,6 +14,7 @@ statusMenikah = True
 a = 1
 b = 2.5
 c = a + b
+
 statusMenikahString = 'Sudah Kawin' if statusMenikah else 'Belum Kawin'
 print(f"Nama: {nama}")
 print(umur)
