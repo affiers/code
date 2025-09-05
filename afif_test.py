@@ -1,11 +1,15 @@
 # String
-nama = 'Iqbal'
+nama = 'Afif'
+
 # Int
-umur = 20
+umur = 40
+
 # Float
-tinggi = 168.7
+tinggi = 178
+
 # Boolean
-statusMenikah = False
+statusMenikah = True
+
 # Aritmatika
 a = 1
 b = 2.5
@@ -17,5 +21,3 @@ print(tinggi)
 print(f"Status: {statusMenikahString}")
 # print(f"Status: {'Sudah Kawin' if statusMenikah else 'Belum Kawin'}")
 print(c)
-print("Halo, saya sedang belajar Python!")
-
