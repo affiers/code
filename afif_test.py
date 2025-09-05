@@ -5,7 +5,7 @@ nama = 'Afif Khoirul Abdi'
 umur = 40
 
 # Float
-tinggi = 178
+tinggi = 174.5
 
 # Boolean
 statusMenikah = True
