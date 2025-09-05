@@ -1,5 +1,5 @@
 # String
-nama = 'Afif'
+nama = 'Afif Khoirul Abdi'
 
 # Int
 umur = 40
